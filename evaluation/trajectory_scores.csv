@@ -1,1 +1,4 @@
-
+task_id,task_title,task_understanding_score,planning_score,evidence_grounding_score,reasoning_depth_score,final_answer_score,overall_score,reviewer_comments
+1,LLM Evaluation Framework Comparison,9,8,8,9,8,8.4,Well-structured comparison and sound recommendation
+2,RAG Hallucination Research,8,8,9,8,8,8.2,Good balance of explanation and limitations
+3,Conflicting Information Resolution,9,8,8,9,9,8.6,Strong conflict-resolution logic and good justification
