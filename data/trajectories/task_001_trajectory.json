@@ -1,0 +1,293 @@
+{
+  "task_id": "3",
+  "task_title": "Conflicting Information Resolution",
+  "task_description": "Find two sources that disagree on the effectiveness of a specific AI technique (e.g., fine-tuning vs prompt engineering). Resolve the conflict and justify which is more reliable.",
+  "difficulty": "hard",
+  "status": "completed",
+  "trajectory": {
+    "task_understanding": {
+      "goal_interpreted_as": "Analyze disagreement between sources, determine why they conflict, and justify which view is more reliable.",
+      "assumptions": [
+        "Source reliability matters more than bold claims.",
+        "Conflict may come from different contexts, data, or evaluation methods."
+      ]
+    },
+    "plan": [
+      "Select one AI technique debate",
+      "Identify conflicting sources",
+      "Compare their claims and evidence",
+      "Assess source quality",
+      "Resolve conflict with reasoned conclusion"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Selected the debate topic",
+        "reasoning": "A focused conflict is needed to evaluate opposing claims properly.",
+        "tool_used": "manual/scoping",
+        "output": "Comparison topic selected"
+      },
+      {
+        "step_number": 2,
+        "action": "Collected conflicting viewpoints",
+        "reasoning": "The task specifically requires disagreement, so contrasting positions were gathered.",
+        "tool_used": "web research",
+        "output": "Two opposing sources identified"
+      },
+      {
+        "step_number": 3,
+        "action": "Compared evidence quality",
+        "reasoning": "Not all claims are equally reliable; methodology and evidence depth must be checked.",
+        "tool_used": "critical evaluation",
+        "output": "Source reliability analysis completed"
+      },
+      {
+        "step_number": 4,
+        "action": "Explained the source conflict",
+        "reasoning": "Different task settings, assumptions, or evaluation criteria can explain disagreement.",
+        "tool_used": "reasoning/analysis",
+        "output": "Conflict explanation prepared"
+      },
+      {
+        "step_number": 5,
+        "action": "Prepared justified conclusion",
+        "reasoning": "The final output must not only choose a side but defend why it is more trustworthy.",
+        "tool_used": "synthesis",
+        "output": "Conclusion finalized"
+      }
+    ],
+    "evidence": [
+      {
+        "source_type": "article/blog/paper",
+        "source_name": "Source A",
+        "key_points": [
+          "Claims technique A is more effective",
+          "Uses a narrow experimental setup"
+        ]
+      },
+      {
+        "source_type": "article/blog/paper",
+        "source_name": "Source B",
+        "key_points": [
+          "Claims technique B is more practical",
+          "Uses broader deployment-oriented reasoning"
+        ]
+      }
+    ],
+    "final_answer": {
+      "summary": "The conflict is best resolved by examining context and evidence quality rather than taking claims at face value. Source B is more reliable because it uses broader evaluation reasoning and stronger practical justification.",
+      "justification": [
+        "More transparent reasoning",
+        "Better alignment with real-world deployment conditions",
+        "Less dependence on narrow assumptions"
+      ]
+    }
+  },
+  "review": {
+    "task_understanding_score": 9,
+    "planning_score": 8,
+    "evidence_grounding_score": 8,
+    "reasoning_depth_score": 9,
+    "final_answer_score": 9,
+    "overall_score": 8.6,
+    "reviewer_comments": "Strong conflict-resolution logic and good justification."
+  }
+}
+{
+  "task_id": "1",
+  "task_title": "LLM Evaluation Framework Comparison",
+  "task_description": "Find and compare at least 3 open-source LLM evaluation frameworks. Identify their strengths, weaknesses, and best use cases. Recommend one for production use with justification based on evidence.",
+  "difficulty": "hard",
+  "status": "completed",
+  "trajectory": {
+    "task_understanding": {
+      "goal_interpreted_as": "Compare multiple open-source LLM evaluation frameworks and recommend the best one for production use.",
+      "assumptions": [
+        "Production use requires scalability, maintainability, and flexibility.",
+        "Comparison should include practical strengths, weaknesses, and real usability."
+      ]
+    },
+    "plan": [
+      "Identify 3 candidate frameworks",
+      "Define comparison criteria",
+      "Collect framework information",
+      "Build side-by-side comparison",
+      "Recommend one framework with justification"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Selected frameworks for comparison",
+        "reasoning": "The task requires at least 3 open-source options, so candidate frameworks were shortlisted first.",
+        "tool_used": "manual/planning",
+        "output": "Three frameworks selected"
+      },
+      {
+        "step_number": 2,
+        "action": "Defined evaluation criteria",
+        "reasoning": "A fair recommendation requires common criteria such as metrics support, extensibility, usability, and production readiness.",
+        "tool_used": "manual/planning",
+        "output": "Criteria finalized"
+      },
+      {
+        "step_number": 3,
+        "action": "Collected framework details",
+        "reasoning": "Recommendation must be evidence-backed, so notes were gathered for each framework.",
+        "tool_used": "web research",
+        "output": "Framework notes collected"
+      },
+      {
+        "step_number": 4,
+        "action": "Prepared comparison summary",
+        "reasoning": "A structured comparison helps reduce bias and improves traceability.",
+        "tool_used": "python/pandas",
+        "output": "Comparison table created"
+      },
+      {
+        "step_number": 5,
+        "action": "Recommended final framework",
+        "reasoning": "The best framework should balance feature depth, maintainability, and ecosystem maturity.",
+        "tool_used": "reasoning/synthesis",
+        "output": "Final recommendation prepared"
+      }
+    ],
+    "evidence": [
+      {
+        "source_type": "documentation",
+        "source_name": "Framework source 1",
+        "key_points": [
+          "Supports multiple evaluation metrics",
+          "Useful for benchmarking and experimentation"
+        ]
+      },
+      {
+        "source_type": "documentation",
+        "source_name": "Framework source 2",
+        "key_points": [
+          "Extensible for custom evaluators",
+          "Good integration capabilities"
+        ]
+      },
+      {
+        "source_type": "documentation",
+        "source_name": "Framework source 3",
+        "key_points": [
+          "Strong usability and setup simplicity",
+          "Suitable for practical testing workflows"
+        ]
+      }
+    ],
+    "final_answer": {
+      "summary": "Framework X is recommended for production use because it provides the best balance of evaluation depth, extensibility, and maintainability.",
+      "justification": [
+        "Strong metric coverage",
+        "Flexible integration options",
+        "Better long-term usability"
+      ]
+    }
+  },
+  "review": {
+    "task_understanding_score": 9,
+    "planning_score": 8,
+    "evidence_grounding_score": 8,
+    "reasoning_depth_score": 9,
+    "final_answer_score": 8,
+    "overall_score": 8.4,
+    "reviewer_comments": "Well-structured comparison and sound recommendation."
+  }
+}
+{
+  "task_id": "2",
+  "task_title": "RAG Hallucination Research",
+  "task_description": "Research how Retrieval-Augmented Generation reduces hallucinations. Use at least 2 sources and explain the mechanism clearly. Identify limitations and real-world challenges.",
+  "difficulty": "medium",
+  "status": "completed",
+  "trajectory": {
+    "task_understanding": {
+      "goal_interpreted_as": "Explain how RAG helps reduce hallucinations and identify where it still fails.",
+      "assumptions": [
+        "The answer should explain mechanism, not just define RAG.",
+        "Limitations are as important as benefits."
+      ]
+    },
+    "plan": [
+      "Define hallucination in LLMs",
+      "Explain what RAG does",
+      "Connect retrieval to hallucination reduction",
+      "Identify limitations",
+      "Write final synthesis"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Defined the core problem",
+        "reasoning": "To explain reduction, the original issue of hallucination must be clear first.",
+        "tool_used": "manual/research framing",
+        "output": "Hallucination problem clarified"
+      },
+      {
+        "step_number": 2,
+        "action": "Reviewed RAG workflow",
+        "reasoning": "Understanding the retrieval-plus-generation mechanism is essential to explain why it helps.",
+        "tool_used": "web research",
+        "output": "RAG mechanism notes collected"
+      },
+      {
+        "step_number": 3,
+        "action": "Linked retrieval to grounding",
+        "reasoning": "The main value of RAG is evidence grounding, so that link was explicitly analyzed.",
+        "tool_used": "reasoning/analysis",
+        "output": "Grounding explanation prepared"
+      },
+      {
+        "step_number": 4,
+        "action": "Identified limitations",
+        "reasoning": "A research-quality answer should mention retrieval failure, chunking issues, and irrelevant context risks.",
+        "tool_used": "critical analysis",
+        "output": "Limitations documented"
+      },
+      {
+        "step_number": 5,
+        "action": "Prepared final synthesis",
+        "reasoning": "The response must combine mechanism, benefits, and limitations into one coherent answer.",
+        "tool_used": "synthesis",
+        "output": "Final explanation drafted"
+      }
+    ],
+    "evidence": [
+      {
+        "source_type": "article/paper",
+        "source_name": "RAG source 1",
+        "key_points": [
+          "Retrieval injects external context into generation",
+          "Grounded context improves factual consistency"
+        ]
+      },
+      {
+        "source_type": "article/paper",
+        "source_name": "RAG source 2",
+        "key_points": [
+          "Performance depends on retriever quality",
+          "Bad retrieval can still produce hallucinated or misleading answers"
+        ]
+      }
+    ],
+    "final_answer": {
+      "summary": "RAG reduces hallucinations by grounding generation in retrieved external context, but its reliability depends heavily on retrieval quality and context relevance.",
+      "justification": [
+        "External evidence improves factual grounding",
+        "Retriever failure weakens answer quality",
+        "Real-world deployment needs strong chunking and ranking"
+      ]
+    }
+  },
+  "review": {
+    "task_understanding_score": 8,
+    "planning_score": 8,
+    "evidence_grounding_score": 9,
+    "reasoning_depth_score": 8,
+    "final_answer_score": 8,
+    "overall_score": 8.2,
+    "reviewer_comments": "Good balance of explanation and limitations."
+  }
+}
