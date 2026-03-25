@@ -1,0 +1,25 @@
+Role: AI/LLM Evaluation Analyst
+
+Role Overview:
+We are hiring an AI Evaluation Analyst to assess and improve the quality of large language model outputs. This role involves evaluating responses for correctness, completeness, reasoning, and factual accuracy.
+
+Key Responsibilities:
+- Evaluate AI-generated responses based on predefined rubrics
+- Identify hallucinations, inconsistencies, and incomplete answers
+- Analyze reasoning quality and logical correctness of outputs
+- Provide detailed feedback and improvement suggestions
+- Design and refine evaluation frameworks and scoring systems
+- Work with large datasets of prompts and responses
+- Collaborate with data scientists and AI engineers to improve model performance
+
+Required Skills:
+- Strong analytical and critical thinking
+- Experience in data annotation or quality evaluation
+- Excellent attention to detail
+- Ability to follow guidelines and maintain consistency
+- Strong written communication skills
+
+Preferred:
+- Familiarity with LLMs, NLP, or generative AI systems
+- Experience with Python, Excel, or data tools
+- Understanding of QA processes and evaluation metrics

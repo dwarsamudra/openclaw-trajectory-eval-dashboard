@@ -1,0 +1,25 @@
+Role: Data Annotation & Research Analyst
+
+Role Overview:
+We are seeking a detail-oriented Data Annotation and Research Analyst to support AI model training through high-quality labeled data and structured analysis.
+
+Key Responsibilities:
+- Perform data annotation and labeling tasks across multiple formats (text, image, audio)
+- Conduct web research to gather and validate information
+- Analyze datasets to identify patterns and insights
+- Ensure data quality and consistency across annotation tasks
+- Work with internal tools and platforms for data processing
+- Document workflows, decisions, and edge cases
+- Assist in building structured datasets for machine learning models
+
+Required Skills:
+- Strong attention to detail and accuracy
+- Experience with data annotation tools and workflows
+- Basic knowledge of Python, Excel, or SQL
+- Ability to handle repetitive and complex tasks with consistency
+- Good problem-solving and research skills
+
+Preferred:
+- Exposure to machine learning or AI workflows
+- Experience in data cleaning, preprocessing, and validation
+- Familiarity with NLP or text-based datasets

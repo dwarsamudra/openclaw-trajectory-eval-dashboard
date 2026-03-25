@@ -1,0 +1,26 @@
+Role: S3 Annotator (AI Research Workflows)
+
+Role Overview:
+We are looking for highly analytical professionals to create and validate complex task trajectories for AI research systems. The role involves working on ambiguous tasks that require multi-step reasoning, research thinking, and strong documentation.
+
+Key Responsibilities:
+- Create and validate structured trajectories for complex, research-oriented tasks
+- Work on problems involving data analysis, document synthesis, and web research
+- Operate under ambiguous instructions and make defensible decisions
+- Use Python (notebooks/scripts) for data processing and automation
+- Execute workflows across multiple tools and environments
+- Clearly document actions taken and the reasoning behind them
+- Perform quality review of trajectories for correctness and reasoning depth
+- Collaborate with teams to refine annotation guidelines and evaluation standards
+
+Required Skills:
+- Strong problem-solving and analytical thinking
+- Experience with Python and data analysis tools (Pandas, NumPy)
+- Ability to handle multi-step workflows and long-context tasks
+- Excellent written communication and documentation skills
+- Familiarity with research workflows and evaluation methodologies
+
+Preferred:
+- Experience in AI/ML or LLM-related projects
+- Understanding of annotation, QA, or evaluation pipelines
+- Exposure to NLP, data labeling, or AI model evaluation
