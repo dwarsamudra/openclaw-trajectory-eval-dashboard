@@ -84,3 +84,8 @@ This project reflects real-world requirements of AI annotation and evaluation ro
 - Add synonym detection
 - Build automated evaluation pipelines
 - Extend to real-world datasets
+## 📓 Notebook
+
+Detailed analysis and trajectory evaluation workflow available in:
+
+`notebooks/trajectory_lab.ipynb`
